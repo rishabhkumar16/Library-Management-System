@@ -1,5 +1,5 @@
 function signUp() {
-    var name = document.getElementById("username").value;
+    var name = document.getElementById("name").value;
     console.log(name);
 
     var email = document.getElementById("email").value;
