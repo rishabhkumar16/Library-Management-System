@@ -1,0 +1,95 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    font-family: "Inconsolata", monospace;
+    background-color: rgb(65, 80, 135);
+}
+
+.logo {
+    color: #eff2f1;
+    margin-left: 2%;
+}
+
+span {
+    color: red;
+}
+
+.signin-form {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.form-header {
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #eff2f1;
+    border-radius: 1em 1em 0em 0em;
+    text-align: center;
+}
+
+.form-body {
+    padding: 0.6em;
+    padding-left: 1.6em;
+    background-color: #eff2f1;
+    font-size: 20px;
+}
+
+.form-head-css {
+    width: 35%;
+}
+
+.form-input-css {
+    /* display: inline-flex; */
+
+    display: flex;
+
+    width: 180%;
+    height: 2.8em;
+    font-size: 20px;
+    border: 3px solid rgb(65, 80, 135);
+    font-family: "Inconsolata", monospace;
+    border-radius: 5px;
+}
+
+.form-footer {
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #eff2f1;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.get-started-table {
+    display: flex;
+    /* justify-content: flex-end; */
+    /* gap: 10px; */
+}
+
+.form-button {
+    /* display: inline-flex; */
+    display: flex;
+    position: relative;
+    top: -15%;
+    /* width: 3em;
+    height: 3em; */
+    padding: 0.3em;
+    font-size: 20px;
+    border: 3px solid rgb(65, 80, 135);
+    font-family: "Inconsolata", monospace;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: rgb(65, 80, 135);
+    color: #eff2f1;
+}
