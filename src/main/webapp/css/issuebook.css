@@ -1,0 +1,72 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+	font-family: 'Inconsolata', monospace;
+	background-color: rgb(65, 80, 135);
+}
+
+span {
+	color: red;
+}
+
+.issuebook-form {
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.form-header {
+	padding: 0.6em;
+	padding-left: 2em;
+    padding-right: 2em;
+	background-color: #eff2f1;
+	border-radius: 1em 1em 0em 0em;
+    text-align: center;
+}
+
+.form-body {
+	padding: 0.6em;
+    padding-left: 1.6em;
+	background-color: white;
+	font-size: 20px;
+}
+
+.form-head-css {
+	width: 35%;
+}
+
+.form-input-css {
+	width: 95%;
+	height: 1.5em;
+	font-size: 20px;
+	border: 3px solid rgb(65, 80, 135);
+    font-family: 'Inconsolata', monospace;
+	border-radius: 5px;
+}
+
+.form-footer {
+	padding: 1em;
+	padding-left: 2em;
+    padding-right: 2em;
+	background-color: #eff2f1;
+	border-radius: 0em 0em 1em 1em;
+}
+
+.form-button {
+	display: block;
+	margin-left: auto;
+  	margin-right: 0;
+	padding: 0.3em;
+	font-size: 20px;
+	border: 3px solid rgb(65, 80, 135);
+    font-family: 'Inconsolata', monospace;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.form-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
