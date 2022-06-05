@@ -1,0 +1,124 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+	font-family: 'Inconsolata', monospace;
+	background-color: rgb(65, 80, 135);
+}
+
+span {
+	color: red;
+}
+.admin-header{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	opacity: 0.6;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.header-content {
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+.header-button {
+	margin-right: 20px;
+}
+
+.admin-body {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.signout-button {
+	display: block;
+	margin-left: auto;
+  	margin-right: 0;
+	padding: 0.3em;
+	font-size: 20px;
+	border: 3px solid rgb(65, 80, 135);
+    font-family: 'Inconsolata', monospace;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.signout-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
+
+.body-header {
+	padding: 1em;
+	padding-left: 2em;
+    padding-right: 2em;
+	background-color: #eff2f1;
+	border-radius: 1em 1em 0em 0em;
+    display: flex;
+	justify-content: space-between;
+}
+
+.body-button {
+	width: 10%;
+}
+
+.add-button, .update-button, .delete-button, .view-button {
+	display: block;
+	margin-left: auto;
+  	margin-right: 0;
+	padding: 0.3em;
+	font-size: 20px;
+	border: 3px solid rgb(65, 80, 135);
+    font-family: 'Inconsolata', monospace;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.add-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
+
+.update-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
+
+.delete-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
+
+.view-button:hover {
+	background-color: rgb(65, 80, 135);
+	color: #eff2f1;
+}
+
+.search-input-css {
+	width: 70%;
+	height: 1.5em;
+	font-size: 20px;
+	border: 3px solid rgb(65, 80, 135);
+    font-family: 'Inconsolata', monospace;
+	border-radius: 5px;
+}
+
+.table-body {
+	padding: 0.6em;
+    padding-left: 1.6em;
+	background-color: white;
+	font-size: 20px;
+}
+
+.admin-footer {
+	padding: 1em;
+	padding-left: 2em;
+    padding-right: 2em;
+	background-color: #eff2f1;
+	border-radius: 0em 0em 1em 1em;
+}
