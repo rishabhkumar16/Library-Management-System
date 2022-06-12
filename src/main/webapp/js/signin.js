@@ -5,15 +5,11 @@ function signIn() {
     const password = document.getElementById("password").value;
     console.log(password);
 
-    const url = `http://localhost:8080/Library-Management-System/library/getAdmin.action?name=${email}`;
+    const url = `http://localhost:8080/Library-Management-System/getUser.action?email=${email}&password=${password}`;
     console.log(url);
     fetch(
-        `http://localhost:8080/Library-Management-System/library/getAdmin.action?name=${email}`,{
+        `http://localhost:8080/Library-Management-System/getUser.action?email=${email}&password=${password}`,{
             method: "POST"
         }
-    ).then(()=>{
-        console.log("url ended")
-    });
-
-
+    );
 }
