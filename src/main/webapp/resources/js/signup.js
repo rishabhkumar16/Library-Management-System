@@ -11,12 +11,12 @@ function signUp() {
     var number = document.getElementById("number").value;
     console.log(number);
 
-    const url = `http://localhost:8080/Library-Management-System/setUser.action?name=${name}&email=${email}&password=${password}&number=${number}`;
-    console.log(url);
-    fetch(
-        `http://localhost:8080/Library-Management-System/setUser.action?name=${name}&email=${email}&password=${password}&number=${number}`,{
-            method: "POST"
-        }
-    );
+    // const url = `http://localhost:8080/Library-Management-System/setUser.action?name=${name}&email=${email}&password=${password}&number=${number}`;
+    // console.log(url);
+    // fetch(
+    //     `http://localhost:8080/Library-Management-System/setUser.action?name=${name}&email=${email}&password=${password}&number=${number}`,{
+    //         method: "POST"
+    //     }
+    // );
     
 }

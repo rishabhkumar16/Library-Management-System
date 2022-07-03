@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Book</title>
     <link rel="stylesheet" href="/Library-Management-System/resources/css/addbook.css">
-    <script src="js/addbook.js"></script>
+    <script src="/Library-Management-System/resources/js/addbook.js"></script>
 </head>
 <body>
     <div class="addbook-form">

@@ -17,8 +17,8 @@
 		<property name="suffix" value=".jsp"></property>
 	</bean>
 	
-	<mvc:resources mapping="/resources/**" location="/resources/css" />
-	<!-- <mvc:resources mapping="/resources/**" location="/resources/js" /> -->
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+<!-- 	<mvc:resources mapping="/resources/**" location="/resources/js" /> -->
 	
 	<mvc:annotation-driven />
 

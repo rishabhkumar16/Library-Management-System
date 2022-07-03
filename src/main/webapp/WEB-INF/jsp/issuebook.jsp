@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISSUE BOOK</title>
     <link rel="stylesheet" href="/Library-Management-System/resources/css/issuebook.css">
-    <script src="js/issuebook.js"></script>
+    <script src="/Library-Management-System/resources/js/issuebook.js"></script>
 </head>
 <body>
     <div class="issuebook-form">

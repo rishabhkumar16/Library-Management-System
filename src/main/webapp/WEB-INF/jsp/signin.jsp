@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <link rel="stylesheet" href="/Library-Management-System/resources/css/signin.css">
-    <script src="js/signin.js"></script>
+    <script src="/Library-Management-System/resources/js/signin.js"></script>
 </head>
 <body>
     <div class="admin-header">
         <div class="header-content"><b>LIBRARY MANAGEMENT SYSTEM</b></div>
-        <div class="header-button"><button type="button" class="signin-button"><a class="sign-up-text" href="./signup.html">Sign Up</a></button></div>
+        <div class="header-button"><button type="button" class="signin-button"><a class="sign-up-text" href="signup">Sign Up</a></button></div>
     </div>
     <div class="signin-form">
 		<div class="form-header">

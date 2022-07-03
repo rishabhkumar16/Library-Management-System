@@ -8,9 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="/Library-Management-System/resources/css/signup.css">
-    <script src="js/signup.js"></script>
+    <script src="/Library-Management-System/resources/js/signup.js"></script>
 </head>
 <body>
+    <div class="admin-header">
+        <div class="header-content"><b>LIBRARY MANAGEMENT SYSTEM</b></div>
+    </div>
     <div class="signup-form">
 		<div class="form-header">
 			<h1>SIGN UP</h1>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/Library-Management-System/resources/css/index.css" />
-    <script src="js/index.js"></script>
+    <script src="/Library-Management-System/resources/js/index.js"></script>
 </head>
 <body>
     <div class="admin-header">
