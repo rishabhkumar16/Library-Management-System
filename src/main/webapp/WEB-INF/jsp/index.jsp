@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="/Library-Management-System/resources/css/index.css" />
     <script src="js/index.js"></script>
 </head>
 <body>
     <div class="admin-header">
         <div class="header-content"><b>LIBRARY MANAGEMENT SYSTEM</b></div>
-        <div class="header-button"><button type="button" class="signin-button"><a class="sign-in-text" href="./signin.html">Sign in</a></button></div>
+        <div class="header-button"><button type="button" class="signin-button"><a class="sign-in-text" href="signin">Sign in</a></button></div>
     </div>
     <div class="signin-form">
         <div class="form-header">
