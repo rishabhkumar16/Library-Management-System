@@ -16,8 +16,12 @@ function signUp() {
     fetch(
       `http://localhost:8080/Library-Management-System/save?name=${name}&email=${email}&password=${password}&number=${number}`,
       {
-        method: "POST",
+        method: "GET",
       }
-    );
+          
+    ).then((response)=>{
+        console.log(response.url);
+        //window.location = response.url;
+      });
     
 }

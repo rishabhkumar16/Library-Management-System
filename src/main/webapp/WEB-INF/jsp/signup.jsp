@@ -18,7 +18,7 @@
 		<div class="form-header">
 			<h1>SIGN UP</h1>
 		</div>
-		<div class="form-body">
+		<form class="form-body">
             <table>
                 <tr>
                     <td class="form-head-css">Name<span>*</span>:</td>
@@ -36,7 +36,7 @@
                     <td><input type="text" name="number" class="form-input-css" id="number" /></td>
                 </tr>
             </table>
-		</div>
+		</form>
         <div class="form-footer">
             <button type="button" class="form-button" onclick="signUp()">Sign Up</button>     
         </div>

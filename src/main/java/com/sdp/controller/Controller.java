@@ -19,7 +19,7 @@ public class Controller {
 		return "signup";
 	}
 	
-	@RequestMapping(value = "/save", method=RequestMethod.POST)
+	@RequestMapping(value = "/save", method=RequestMethod.GET)
 	public String userSave(@RequestParam("name") String name, @RequestParam("email") String email, @RequestParam("password") String password, @RequestParam("number") String number) {
 		System.out.println(name);
 		System.out.println(email);
