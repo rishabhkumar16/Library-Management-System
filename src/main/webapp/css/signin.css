@@ -44,6 +44,9 @@ span {
 	text-decoration: none;
 	color: black;
 }
+.sign-up-text:hover{
+    color: #eff2f1 !important;
+}
 .signin-button:hover {
 	background-color: rgb(65, 80, 135);
 	color: #eff2f1;

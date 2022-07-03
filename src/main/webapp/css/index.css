@@ -48,9 +48,15 @@ span {
 
 .signin-button:hover {
 	background-color: rgb(65, 80, 135);
-	color: #eff2f1;
+	
 }
-
+.sign-in-text{
+	text-decoration: none;
+	color: black;
+}
+.sign-in-text:hover{
+    color: #eff2f1 !important;
+}
 .signin-form {
     width: 40%;
     height: 40%;
